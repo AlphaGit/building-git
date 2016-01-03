@@ -1,0 +1,8 @@
+### You're getting ahead of yourself
+
+Have you guessed it already? Are you thinking in branches, commits and tags? Yes. Then stop. You're getting ahead of yourself.
+
+There are a few things we need to introduce first before we get there.
+
+#commits #branches #tags
+#needs-proofreading

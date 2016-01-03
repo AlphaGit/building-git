@@ -1,0 +1,27 @@
+## Tags
+
+Ahh, I see you there, already committing like a crazy fella. Change after change, making your way to completion.
+
+But life is not linear, is it? Sometimes, your work can deviate in different paths that you want to try before really knowing which of the paths you took is final. Maybe you need a fancy name to refer to the work that you're doing. Or maybe someone else needs to work on the same code base, but on a different set of changes than you.
+
+What you want is a level of isolation, and a pointer, some kind of marker that can be referred by name.
+
+This last point is important: if you some some detail into the commits, you'd see that they can be identified by their hash. But remembering hashes is a pain, specially when they have thirty thousand and twelve digits. (Well, maybe not that much.)
+
+Enter the tag. You can imagine branches as that: just fancy names or markers that you can give to commits.
+
+Creating tags is as easy as any other command we have seen so far:
+
+```console
+git tag v0.1
+```
+
+That's it! Now you will have a marker that indicates that this commit, with the changes in it included are what you call "v0.1".
+
+They don't need to be versions at all. They can be releases, they can be features being completed, they can be an important point in your project development life, or they can be the maiden name of your mother.
+
+### Annotated tags
+
+#needs-finishing
+
+#needs-proofreading
