@@ -1,5 +1,0 @@
-## References and links
-
-- https://github.com/git-tips/tips
-- https://github.com/stevemao/awesome-git-addons
-- http://www-cs-students.stanford.edu/~blynn/gitmagic/
