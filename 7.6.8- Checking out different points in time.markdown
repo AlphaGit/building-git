@@ -1,0 +1,44 @@
+## Checking out different points in time
+
+"Ok, so that's cool", you say. "I have a bunch of commits, which represent a bunch of changes in time. I also have tags which gives them fancy names. But this is not very useful if I can't move around."
+
+And you're right, my friend. Moving around is one of the easiest things that you can do in git. And since you want to "check out" how a particular snapshot (commit) looked like, that's all that it takes to go to it.
+
+```console
+> git checkout v0.1
+Note: checking out 'v0.1'.
+
+(a bunch of text on what you can do)
+
+HEAD is now at 091b0ed... Added files 1 and 2
+```
+
+What you're seeing here is pretty much what you would expect. Git tells you "I'm moving here" and then it tells you "I'm here".  It tells you a portion of the commit hash and it shows you the first line of the commit message.
+
+It tells you that `HEAD` (the pointer to where you are) is at a particular number. What is that number?
+
+Well, that number is the hash of the commit. The tag is the commit, because, if you remember, tags were nothing more than a fancy name to one of these snapshots.
+
+You don't need to checkout a particular tag. Anything that points to a snapshot will work.
+
+Using the hash value of the commit:
+
+```console
+> git checkout 091b0ede152bf754f28cf34d17f32990c13e7b4d
+HEAD is now at 091b0ed... Added files 1 and 2
+```
+
+Using just a portion of it:
+
+```console
+> git checkout 091b0ed
+HEAD is now at 091b0ed... Added files 1 and 2
+> git checkout 091b0ede152bf
+HEAD is now at 091b0ed... Added files 1 and 2
+> git checkout v0.1
+HEAD is now at 091b0ed... Added files 1 and 2
+```
+
+The text that you saw before will make more sense when we talk about branches, HEAD and the detached HEAD mode.
+
+#needs-proofreading

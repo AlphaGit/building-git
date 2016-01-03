@@ -1,0 +1,21 @@
+## Current status
+
+WOAH WOAH, what was that?
+
+Well, we already introduced the concept of files being tracked, files not being tracked, and a staging area. It's getting a little bit complex, so we don't want to make this all work from memory, right?
+
+So, we have a way to check which is our current status, which is appropriately called `status`. Invoking git status will show a few things:
+
+[image of a typical status result with pointers and numbers that refer to the enumeration below]
+
+1. Where are you located in the continuous set of changes that you're making. (If it has a name, then what name will it have. More on this when we talk about branches and tags.)
+2. What contents does the staging area have.
+3. What files are not currently being tracked.
+
+This makes it pretty easy to check if you accidentally added a file that you shouldn't have added, or if you repent from all your sins and you want to take a file out of it.
+
+This is the chance for you to check that the staging area is correct.
+
+Not to blow your mind right now (just joking, I totally want to blow your mind right now), but you can actually have different parts of the same file in and out of the staging area. But this is for later, when we talk about interactive-adding and chunk adding.
+
+#needs-proofreading

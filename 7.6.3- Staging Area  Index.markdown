@@ -1,0 +1,37 @@
+## Staging Area / Index
+
+Hold on. Isn't it a little bit tyrannical if git were to track _everything_ under that directory? I mean, we could have sensitive files, and I'm not talking files with very breakable feelings, but files with information that you don't want to be stored forever in a repository.
+
+For example, you may be developing an invoicing system and you need API codes to interact with a tax calculator. These API codes are private, and you may working with other people and sharing the repository with them. In cases like this, you may not want to share those particular files.
+
+So, what we need is a way to tell git what we want to include there, instead of everything.
+
+If you've worked into software development or even as a sysadmin, you may have heard of "staging" servers or environments. This is where you get "prepared" to test something out, before you actually _commit_ to making it production. Git has the very same concept, and it's called the *staging area*. Because of it's technical nature, you may sometimes hear it being referred to as the *index*, but it's more likely that you'll see *staging area*.
+
+What we want to do is to add the stuff that we want to track to our staging area, and if it all looks correct, we can add it to the repository so it is tracked.
+
+How do we **add** files? Well...
+
+```console
+> git add file1.txt
+> git add file2.txt
+> git status
+
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   file1.txt
+        new file:   file2.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        passwords.txt
+
+```
+
+#needs-proofreading

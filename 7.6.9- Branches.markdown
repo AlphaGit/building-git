@@ -1,0 +1,98 @@
+## Branches
+
+Now that you're comfortable tagging commits with names, you'd probably seen a problem: you don't have a way to refer to an in-progress set of changes. For example, you may tag a particular commit as "payment-code-finished" or "v0.1". But how do you indicate that the set of commits that you're working on is "new-version" or "cleaning-up-code" or "ongoing-development"?
+
+This is what **branches** are for. Branches are just like tags in the sense that they are references to commits, but branches can move around.
+
+This is how it works: where you are right now is called HEAD. HEAD is pretty much like the HEAD of a printer: it's the point of reference of the "now" the "where we are" and the "where we can jam up the paper".
+
+When you move around, HEAD is there. So, when you make commits, HEAD now points to the new commit.
+
+Tags point to a commit. And branches point to a commit... or you can make a branch point to HEAD until you move otherwise. Let me show you.
+
+But first, let's create a branch:
+
+```console
+$ git branch develop
+$ git status
+On branch develop
+...
+$ echo "new line" >> file2.txt
+$ git add file2.txt
+$ git commit -m "Added new line"
+[develop 5d0a91a] Added new line
+$ git status
+On branch develop
+...
+```` 
+
+So, as you can see, as long as we're "standing" on a branch, making commits or updates to it will update the branch as well, which means that the branch is tracking our "HEAD" position.
+
+Let's walk step by step into what happened after executing each command:
+
+```console
+$ git branch develop
+```
+
+[image, branch named develop pointing to a specific commit, a signaler indicating that our HEAD is there too]
+
+```console
+$ echo "new line" >> file2.txt
+```
+
+[same image as before, but now indicating that there is something into a "working area", mark it in a different color to indicate that is it not a commit]
+
+```console
+$ git add file2.txt
+```
+
+[same image as before, but now the working area is colored in a different way and it is labeled staging area]
+
+```console
+$ git commit -m "Added new line"
+```
+
+[same image as before, but without working area or staging area, now there is a new commit and it is labeled with the message. The branch is now pointing to it and the HEAD is now pointing to it.]
+
+I've skipped over the `git status` commands because they don't perform any change on the structure of the tree.
+
+### Detached head mode
+
+Now, you've seen how the branch that we're in will follow around our HEAD pointer. However, it is possible to override this behavior if we were to not use a branch. For example, let's continue from the very same commit that we just did, and we'll make another commit where the `develop` branch won't be affected.
+
+```console
+$ git checkout 5d0a91a
+You are in 'detached HEAD' state.
+...
+
+$ echo "new line 2" >> file2.txt
+
+$ git commit -a -m "Added another new line"
+[detached HEAD ed29c4b] Added another new line
+
+$ git log --oneline
+ed29c4b Added another new line
+5d0a91a Added new line
+c354288 Change 1
+091b0ed Added files 1 and 2
+
+$ git checkout develop
+Warning: you are leaving 1 commit behind, not connected to
+any of your branches:
+
+  ed29c4b Added another new line
+
+If you want to keep them by creating a new branch, this may be a good time
+to do so with:
+
+ git branch new_branch_name ed29c4b
+
+$ git log --oneline
+5d0a91a Added new line
+c354288 Change 1
+091b0ed Added files 1 and 2
+```
+
+As you can see, we went "back" to the `develop` branch, and that meant leaving our commit abandoned. Since nothing is pointing to this commit, eventually git's internal garbage collector will pick it up and remove it altogether. Git warns us about this and even gives us some instructions into how to create a branch that points to it.
+
+#needs-finishing

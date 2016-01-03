@@ -1,0 +1,5 @@
+## Git configuration
+
+#needs-finishing
+
+Global, local and effective configuration.

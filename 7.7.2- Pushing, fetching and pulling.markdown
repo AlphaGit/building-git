@@ -1,0 +1,6 @@
+### Pushing, fetching and pulling
+
+- force pushing
+- fetching strategies
+
+#needs-finishing
