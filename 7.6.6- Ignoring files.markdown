@@ -1,4 +1,4 @@
-## Ignoring files
+ Ignoring files
 
 Let's say that your environment has files that should not be committed to the repository. Files that should be worked on by every developer, because, for example, they contain local configurations, or usernames and passwords, or anything that you don't want shared in your project history. This is specially useful if your project is open source, because while you want to share your code, you don't want to share your credentials and accounts. (You're not so open, are you now?)
 
@@ -34,4 +34,3 @@ If you happen to know what a glob is, you should be on your way. If not, [Wikipe
 
 After crafting your file, just save changes into it, and add the file to index. Yes, the file is a file inside the repository, so it needs to be committed too. While this sounds strange, it is actually great: it means that different points in time can ignore a different set of files. You could create a base configuration, commit it, and then ignore it. This means that whoever makes changes into it, cannot commit changes to it accidentally. (They'd have to un-ignore it first.)
 
-#needs-proofreading

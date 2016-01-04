@@ -11,4 +11,3 @@ We're going to start with the basic concepts of VCSs and progressively working o
 
 Note that while the tutorial is named "building git", we're not actually going to be building it, at least not literally. (It feels SO dumb to use this title while I'm drafting this and already making excuses.) We're going to figuratively build our way towards what a VCS should do and once it makes sense, git is going to make that dream a reality.
 
-#needs-proofreading

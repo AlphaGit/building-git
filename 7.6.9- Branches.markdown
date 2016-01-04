@@ -1,4 +1,4 @@
-## Branches
+ Branches
 
 Now that you're comfortable tagging commits with names, you'd probably seen a problem: you don't have a way to refer to an in-progress set of changes. For example, you may tag a particular commit as "payment-code-finished" or "v0.1". But how do you indicate that the set of commits that you're working on is "new-version" or "cleaning-up-code" or "ongoing-development"?
 
@@ -56,7 +56,7 @@ $ git commit -m "Added new line"
 
 I've skipped over the `git status` commands because they don't perform any change on the structure of the tree.
 
-### Detached head mode
+ Detached head mode
 
 Now, you've seen how the branch that we're in will follow around our HEAD pointer. However, it is possible to override this behavior if we were to not use a branch. For example, let's continue from the very same commit that we just did, and we'll make another commit where the `develop` branch won't be affected.
 
@@ -95,4 +95,3 @@ c354288 Change 1
 
 As you can see, we went "back" to the `develop` branch, and that meant leaving our commit abandoned. Since nothing is pointing to this commit, eventually git's internal garbage collector will pick it up and remove it altogether. Git warns us about this and even gives us some instructions into how to create a branch that points to it.
 
-#needs-finishing

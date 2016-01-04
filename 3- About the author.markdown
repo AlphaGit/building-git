@@ -14,4 +14,3 @@ Now, if you want to contact me, personally, you can do so at [Twitter](http://ww
 
 Enough about me. Let's talk about you.
 
-#needs-proofreading

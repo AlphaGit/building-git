@@ -1,4 +1,4 @@
-## Initializing a repository
+ Initializing a repository
 
 If we jump into any directory, we can ask git to initialize it like this:
 
@@ -18,4 +18,3 @@ Initialized empty Git repository in /home/alpha/buiding-git/my-repo/.git/
 
 Congratulations! You already have created your first repository and are ready to start tracking changes in it.
 
-#needs-proofreading

@@ -1,4 +1,4 @@
-### Naming stuff
+ Naming stuff
 
 >- "Hey Mike, let's go back to the good checkpoint."
 >- "You mean the last one?"
@@ -10,5 +10,4 @@ Naming things is useful. It allows us to refer without confusion to what we mean
 
 [image of circles, the last known good change now has a sticker onto it that says "payment code done", and the last one says "last change"]
 
-#commits #branches #tags
-#needs-proofreading
+  

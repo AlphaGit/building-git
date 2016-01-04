@@ -1,4 +1,4 @@
-## Tags
+ Tags
 
 Ahh, I see you there, already committing like a crazy fella. Change after change, making your way to completion.
 
@@ -20,8 +20,7 @@ That's it! Now you will have a marker that indicates that this commit, with the 
 
 They don't need to be versions at all. They can be releases, they can be features being completed, they can be an important point in your project development life, or they can be the maiden name of your mother.
 
-### Annotated tags
+ Annotated tags
 
-#needs-finishing
 
-#needs-proofreading
+

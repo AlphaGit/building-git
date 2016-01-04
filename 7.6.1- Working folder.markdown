@@ -1,11 +1,10 @@
-## Working folder
+ Working folder
 
 Well, what are we going to be tracking changes to? It's very likely that you're working with files. So let's track changes in those.
 
-As obvious as this sounds, this is actually a design limitation that git has, and purposefully made. There are other changes that you can be making that are not files. Maybe you're changing the configuration of your system. Maybe you're tracking physical objects (why are you here, then?). #needs-more-examples
+As obvious as this sounds, this is actually a design limitation that git has, and purposefully made. There are other changes that you can be making that are not files. Maybe you're changing the configuration of your system. Maybe you're tracking physical objects (why are you here, then?). 
 
 As such, our VCS (git) is going to operate on files. But operating on _all_ files on the system would be inefficient. Your OS changes a lot of files every time that you do nothing and every time that you do something, so we clearly need to create a better scope for what git will track.
 
 Let's decide that git will track changes made to a particular directory and directories inside it. As such, we need to call git and indicate that this is what we want to use as our **repository**. We'll call **repository** the set of files and folders that we're going to track with this VCS, and we'll call **initializing** to this process of starting out a new repository from a common folder.
 
-#needs-proofreading

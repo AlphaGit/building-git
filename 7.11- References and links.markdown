@@ -1,4 +1,4 @@
-## References and links
+ References and links
 
 - https://github.com/git-tips/tips
 - https://github.com/stevemao/awesome-git-addons

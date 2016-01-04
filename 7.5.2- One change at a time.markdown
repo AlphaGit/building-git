@@ -1,4 +1,4 @@
-### One change at a time
+ One change at a time
 
 Imagine that you're making several changes to your document, your code, your sweater knitting, or whatever it is you're doing. It is always simpler and less error prone to make your changes one at a time, evaluate how everything is going and continue with the next change.
 
@@ -10,5 +10,4 @@ Making one change at a time is pretty much what any organized person would do, a
 
 Now, if there was a way to formalize these checkpoints... maybe _committing_ to what you have done so far...
 
-#commits
-#needs-proofreading
+
