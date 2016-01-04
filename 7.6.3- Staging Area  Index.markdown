@@ -1,4 +1,4 @@
- Staging Area / Index
+## Staging Area / Index
 
 Hold on. Isn't it a little bit tyrannical if git were to track _everything_ under that directory? I mean, we could have sensitive files, and I'm not talking files with very breakable feelings, but files with information that you don't want to be stored forever in a repository.
 

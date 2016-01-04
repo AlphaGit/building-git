@@ -1,4 +1,4 @@
- What we want from a VCS
+## What we want from a VCS
 
 We first have to lay down what we expect from a VCS. In case you didn't know about this, a VCS is a Version Control System. It allows you to maintain different versions of your code, and people use it for progressively tracking changes to what they do, be it code or not. Also, if you didn't know about it, I'm not angry, just disappointing son.
 

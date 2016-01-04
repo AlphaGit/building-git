@@ -1,4 +1,4 @@
- Checking out different points in time
+## Checking out different points in time
 
 "Ok, so that's cool", you say. "I have a bunch of commits, which represent a bunch of changes in time. I also have tags which gives them fancy names. But this is not very useful if I can't move around."
 

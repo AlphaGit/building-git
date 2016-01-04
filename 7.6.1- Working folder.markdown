@@ -1,4 +1,4 @@
- Working folder
+## Working folder
 
 Well, what are we going to be tracking changes to? It's very likely that you're working with files. So let's track changes in those.
 

@@ -1,4 +1,4 @@
- Commits
+## Commits
 
 At this point you have added and removed files from your staging area, and you're ready to _commit_ to those changes. Each commit will represent a snapshot of your repository, and if you lay down the snapshots side by side (which git totally does), you can also think of commits as what changes were performed since the last commit.
 
@@ -24,7 +24,7 @@ The rest of the development process for working on a feature is a repetition of 
 * Commit
 * Rinse and repeat
 
- Quick adding: adding all
+### Quick adding: adding all
 
 You'll find quite often that you have a pretty good knowledge of what your changes are, so you don't want to add files to the staging area to review them. You just _know_ that you want to add all pending changes to a commit.
 

@@ -1,4 +1,4 @@
- One change at a time
+### One change at a time
 
 Imagine that you're making several changes to your document, your code, your sweater knitting, or whatever it is you're doing. It is always simpler and less error prone to make your changes one at a time, evaluate how everything is going and continue with the next change.
 

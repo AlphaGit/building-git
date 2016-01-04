@@ -1,4 +1,4 @@
- Ignoring files
+## Ignoring files
 
 Let's say that your environment has files that should not be committed to the repository. Files that should be worked on by every developer, because, for example, they contain local configurations, or usernames and passwords, or anything that you don't want shared in your project history. This is specially useful if your project is open source, because while you want to share your code, you don't want to share your credentials and accounts. (You're not so open, are you now?)
 

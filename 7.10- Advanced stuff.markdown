@@ -1,4 +1,4 @@
- Advanced stuff
+## Advanced stuff
 
 - Bare repositories
 - Reference log

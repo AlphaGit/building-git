@@ -1,4 +1,4 @@
- Initializing a repository
+## Initializing a repository
 
 If we jump into any directory, we can ask git to initialize it like this:
 
