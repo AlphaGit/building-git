@@ -1,2 +1,24 @@
 ### Annotated tags
 
+As you know by know, a tag is pretty much tag: a particular note, an indicator, _something_ on that particular commit. For some operations, you will need something more reliable, something that actually has special information about the state of the repository at that point.
+
+Come into scene: _annotated tags_.
+
+For example, GitHub uses annotated tags to differentiate releases in a particular repository.
+
+Annotated tags have everything that a regular tag has, plus:
+
+- checksum of the contents
+- tag author name, email
+- tag date
+- message
+- signature verifiable with GPG
+
+So you can see why for particular purposes you'd prefer an annotated tag.
+
+Creating one is as simple as it gets:
+
+```console
+git tag -a v0.1 -m "First test version"
+```
+
