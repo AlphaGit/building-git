@@ -34,3 +34,4 @@ If you happen to know what a glob is, you should be on your way. If not, [Wikipe
 
 After crafting your file, just save changes into it, and add the file to index. Yes, the file is a file inside the repository, so it needs to be committed too. While this sounds strange, it is actually great: it means that different points in time can ignore a different set of files. You could create a base configuration, commit it, and then ignore it. This means that whoever makes changes into it, cannot commit changes to it accidentally. (They'd have to un-ignore it first.)
 
+#needs-proofreading

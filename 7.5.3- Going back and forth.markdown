@@ -10,4 +10,5 @@ What we need to do now it so _check-out_ how the situation was at that point in 
 
 [same as last image of circles, but with a new set of changes branching from the last good known change, with more filling circles]
 
-  
+#commits #branches #checkout
+#needs-proofreading

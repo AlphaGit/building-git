@@ -18,3 +18,4 @@ This is the chance for you to check that the staging area is correct.
 
 Not to blow your mind right now (just joking, I totally want to blow your mind right now), but you can actually have different parts of the same file in and out of the staging area. But this is for later, when we talk about interactive-adding and chunk adding.
 
+#needs-proofreading

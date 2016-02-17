@@ -41,3 +41,4 @@ HEAD is now at 091b0ed... Added files 1 and 2
 
 The text that you saw before will make more sense when we talk about branches, HEAD and the detached HEAD mode.
 
+#needs-proofreading

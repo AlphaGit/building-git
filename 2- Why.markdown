@@ -6,3 +6,4 @@ If they don't, it's very likely that they don't present the whole set of feature
 
 This tutorial pretends to be an easy-to-follow, progressive, light-hearted approach to git that is comprehensible to every level of developers. It'll start with the basic concepts and later on jump to the real-deal of git usage.
 
+#needs-proofreading

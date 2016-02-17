@@ -6,3 +6,4 @@
 
 **This is not a guide to using a particular git GUI.** IMO, they assume too much, and they widely differ. This guide is going to base itself on the console usage of git. Once you understand what the console does, all GUIs should be very simple to understand.
 
+#needs-proofreading
