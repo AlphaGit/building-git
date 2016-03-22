@@ -7,4 +7,4 @@ This work is shared under the [CC BY-NC-SA 4.0](http://creativecommons.org/licen
 
 Note that these are still possibilities, but the difference is that for it to be legal, you need to request permission from me. No biggie, I'm a reasonable guy, y'know? I'll probably say yes unless you're printing copies for the mafia (and you're not giving me a good share).
 
-#needs-proofreading
+#needs-proofreading #license

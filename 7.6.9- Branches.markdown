@@ -95,4 +95,4 @@ c354288 Change 1
 
 As you can see, we went "back" to the `develop` branch, and that meant leaving our commit abandoned. Since nothing is pointing to this commit, eventually git's internal garbage collector will pick it up and remove it altogether. Git warns us about this and even gives us some instructions into how to create a branch that points to it.
 
-#needs-finishing
+#needs-finishing #branches #log #checkout #references #detached-head-mode #commit

@@ -7,3 +7,5 @@
 **I'll be using bash files as code examples**, because it's simple to illustrate the point of the changes with them, and because they can be executed to perform some of the tasks that we want to use too. If you don't get them that's fine, there will be some explanation of what they do so you can follow along. Windows users, I'm sorry, but batch files are just awful and Powershell is great but I don't like the syntax. (Plus, you need like a bazillion things before you can run it, and then policies and... no thanks, this is a tutorial on another thing.)
 
 (Derived from the last point) **I'm going to be using the bash shell.** Again, there should be nothing crazy here, expect from moving around in repositories and what the prompt tells us. This should be pretty simple to follow and you can expect the same from other OSs, with minor differences that you can adjust changing your configuration.
+
+#assumptions #configuration #code

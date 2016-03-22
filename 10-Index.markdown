@@ -1,20 +1,79 @@
 # Index
 
+## A
+
+- assumptions: [6- Assumptions](6- Assumptions.markdown)
+- add: [7.6.5- Commits](7.6.5- Commits.markdown)
+- annotated-tags: [7.6.7.1- Annotated tags](7.6.7.1- Annotated tags.markdown)
+
 ## B
 
 - branches
     - [7.5.3- Going back and forth](7.5.3- Going back and forth.markdown)
     - [7.5.4- Naming stuff](7.5.4- Naming stuff.markdown)
     - [7.5.5- You're getting ahead of yourself](7.5.5- You're getting ahead of yourself.markdown)
+    - [7.6.3- Staging Area  Index](7.6.3- Staging Area  Index.markdown)
+    - [7.6.5- Commits](7.6.5- Commits.markdown)
+    - [7.6.9- Branches](7.6.9- Branches.markdown)
 
 ## C
 
+- contact
+    - [3- About the author](3- About the author.markdown)
+    - [8- Contributing](8- Contributing.markdown)
+- configuration: [6- Assumptions](6- Assumptions.markdown)
+- code: [6- Assumptions](6- Assumptions.markdown)
+- changes
+    - [7.5.2- One change at a time](7.5.2- One change at a time.markdown)
+    - [7.6.1- Working folder](7.6.1- Working folder.markdown)
 - commits
     - [7.5.2- One change at a time](7.5.2- One change at a time.markdown)
     - [7.5.3- Going back and forth](7.5.3- Going back and forth.markdown)
     - [7.5.4- Naming stuff](7.5.4- Naming stuff.markdown)
     - [7.5.5- You're getting ahead of yourself](7.5.5- You're getting ahead of yourself.markdown)
-- checkout: [7.5.3- Going back and forth](7.5.3- Going back and forth.markdown)
+    - [7.6.5- Commits](7.6.5- Commits.markdown)
+    - [7.6.8- Checking out different points in time](7.6.8- Checking out different points in time.markdown)
+- checkout
+    - [7.5.3- Going back and forth](7.5.3- Going back and forth.markdown)
+    - [7.6.8- Checking out different points in time](7.6.8- Checking out different points in time.markdown)
+    - [7.6.9- Branches](7.6.9- Branches.markdown)
+- commit-message: [7.6.5- Commits](7.6.5- Commits.markdown)
+- commit: [7.6.9- Branches](7.6.9- Branches.markdown)
+- contributing: [8- Contributing](8- Contributing.markdown)
+
+## D
+
+- detached-head-mode: [7.6.9- Branches](7.6.9- Branches.markdown)
+
+## F
+
+- filesystem-structure: [7.6.2- Initializing a repository](7.6.2- Initializing a repository.markdown)
+
+## G
+
+- gingko: [1- WHAT WHAT IS THIS](1- WHAT WHAT IS THIS.markdown)
+- glob: [7.6.6- Ignoring files](7.6.6- Ignoring files.markdown)
+
+## H
+
+- HEAD: [7.6.8- Checking out different points in time](7.6.8- Checking out different points in time.markdown)
+
+## I
+
+- initializing
+    - [7.6.1- Working folder](7.6.1- Working folder.markdown)
+    - [7.6.2- Initializing a repository](7.6.2- Initializing a repository.markdown)
+- init: [7.6.2- Initializing a repository](7.6.2- Initializing a repository.markdown)
+- index
+    - [7.6.3- Staging Area  Index](7.6.3- Staging Area  Index.markdown)
+    - [7.6.4- Current status](7.6.4- Current status.markdown)
+    - [7.6.6- Ignoring files](7.6.6- Ignoring files.markdown)
+- ignore: [7.6.6- Ignoring files](7.6.6- Ignoring files.markdown)
+
+## L
+
+- log: [7.6.9- Branches](7.6.9- Branches.markdown)
+- license: [9- License](9- License.markdown)
 
 ## N
 
@@ -61,10 +120,46 @@
     - [7.9.9- Describe](7.9.9- Describe.markdown)
     - [7.10- Advanced stuff](7.10- Advanced stuff.markdown)
 - needs-more-examples: [7.6.1- Working folder](7.6.1- Working folder.markdown)
+- needs-contents
+    - [7.6.4- Current status](7.6.4- Current status.markdown)
+    - [7.6.5- Commits](7.6.5- Commits.markdown)
+    - [7.6.5- Commits](7.6.5- Commits.markdown)
+
+## R
+
+- repository: [7.6.2- Initializing a repository](7.6.2- Initializing a repository.markdown)
+- references: [7.6.9- Branches](7.6.9- Branches.markdown)
+
+## S
+
+- staging-area
+    - [7.6.3- Staging Area  Index](7.6.3- Staging Area  Index.markdown)
+    - [7.6.4- Current status](7.6.4- Current status.markdown)
+    - [7.6.5- Commits](7.6.5- Commits.markdown)
+- status: [7.6.4- Current status](7.6.4- Current status.markdown)
+- stash: [7.6.10- Stash](7.6.10- Stash.markdown)
+- stash-pop: [7.6.10- Stash](7.6.10- Stash.markdown)
 
 ## T
 
+- tutorial
+    - [1- WHAT WHAT IS THIS](1- WHAT WHAT IS THIS.markdown)
+    - [2- Why](2- Why.markdown)
+    - [4- What YOU can expect from this tutorial](4- What YOU can expect from this tutorial.markdown)
 - tags
     - [7.5.4- Naming stuff](7.5.4- Naming stuff.markdown)
     - [7.5.5- You're getting ahead of yourself](7.5.5- You're getting ahead of yourself.markdown)
+    - [7.6.7- Tags](7.6.7- Tags.markdown)
+    - [7.6.7.1- Annotated tags](7.6.7.1- Annotated tags.markdown)
+
+## V
+
+- VCS
+    - [4- What YOU can expect from this tutorial](4- What YOU can expect from this tutorial.markdown)
+    - [7.6.1- Working folder](7.6.1- Working folder.markdown)
+- vcs: [7.5- What we want from a VCS](7.5- What we want from a VCS.markdown)
+
+## W
+
+- working-folder: [7.6.1- Working folder](7.6.1- Working folder.markdown)
 

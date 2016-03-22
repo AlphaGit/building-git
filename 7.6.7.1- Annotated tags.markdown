@@ -22,4 +22,4 @@ Creating one is as simple as it gets:
 git tag -a v0.1 -m "First test version"
 ```
 
-#needs-proofreading
+#needs-proofreading #tags #annotated-tags

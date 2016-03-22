@@ -10,11 +10,11 @@ git commit
 
 By default, git will open a text editor to ask for a message to be displayed.
 
-[image of a text editor prompting for a commit message]
+[image of a text editor prompting for a commit message] #needs-contents
 
 You'll also be able to review several of the details for the commit, and abort the operation if you want. Enter your commit message, save the file for the editor that git opened, and when you close it, git will do it's magic.
 
-[image of what git displays after creating a commit]
+[image of what git displays after creating a commit] #needs-contents
 
 The rest of the development process for working on a feature is a repetition of the last steps.
 
@@ -38,4 +38,4 @@ With this option, you can bypass adding all files to the staging area and have g
 
 Commits are pretty much the central part of git. The bread and butter of this toast that is this VCS. Learn to love them. Put some thought into how you divide your work and how you signal what has been done in them. There will be a lot of pleasure from making your work easy for yourself, or a lot of pain and suffering for making your work difficult.
 
-#needs-proofreading
+#needs-proofreading #commits #staging-area #branches #add #commit-message

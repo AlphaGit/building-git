@@ -12,4 +12,4 @@ Note that while the tutorial is named "building git", we're not actually going t
 
 Finally, you won't become an expert, and things may not be exactly as accurate. This is on purpose (yeah, right). The point of the tutorial is to bring git's complexities down to Earth for you to grasp them.
 
-#needs-proofreading
+#needs-proofreading #tutorial #VCS

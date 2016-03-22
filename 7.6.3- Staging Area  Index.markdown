@@ -34,4 +34,4 @@ Untracked files:
 
 ```
 
-#needs-proofreading
+#needs-proofreading #staging-area #index #branches

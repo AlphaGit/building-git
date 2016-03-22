@@ -26,4 +26,4 @@ If you wish to see the list of tags that are present in your repository, you jus
 git tag
 ```
 
-#needs-proofreading
+#needs-proofreading #tags

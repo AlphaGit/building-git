@@ -2,7 +2,7 @@
 
 Since we're on the subject of what I'd do, let me introduce myself.
 
-My name is Juan Diego Raimondi, called "JD" by everyone, and I work for a company called MakingSense as a software architect. I help support clients and internal or external projects, doing a variety of things to make sure we create things that _make sense_.
+My name is Juan Diego Raimondi, called "JD" by everyone, and I work for a company called MakingSense as a solutions architect. I help support clients and internal or external projects, doing a variety of things to make sure we create things that _make sense_.
 
 In case you wondered, yes, the company name itself is a bad pun but we're that bold and we can afford to do it.
 
@@ -14,4 +14,4 @@ Now, if you want to contact me, personally, you can do so at [Twitter](http://ww
 
 Enough about me. Let's talk about you.
 
-#needs-proofreading
+#needs-proofreading #contact

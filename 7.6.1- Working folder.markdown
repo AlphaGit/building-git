@@ -8,4 +8,4 @@ As such, our VCS (git) is going to operate on files. But operating on _all_ file
 
 Let's decide that git will track changes made to a particular directory and directories inside it. As such, we need to call git and indicate that this is what we want to use as our **repository**. We'll call **repository** the set of files and folders that we're going to track with this VCS, and we'll call **initializing** to this process of starting out a new repository from a common folder.
 
-#needs-proofreading
+#needs-proofreading #working-folder #VCS #changes #initializing
