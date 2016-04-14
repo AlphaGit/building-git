@@ -1,6 +1,6 @@
 ## Stash
 
-At some point you may want to suspend your work and go back to the latest commit. Or switch to another branch. Whatever the reason, you want to leave your current changes behind, but you don't want to lose them, and you don't want to commit them either. Maybe you were just experimenting. Maybe it's a work in progress.
+At some point you may want to suspend your work and go back to the latest commit. Or switch to another branch. Whatever the reason, you want to leave your current changes behind, but you don't want to lose them, and you don't want to commit them either. Maybe you were just experimenting. Maybe it's a work in progress. The world may never know.
 
 Whatever the reason, git has you covered.
 
@@ -18,6 +18,12 @@ And when you're ready to come back to it:
 git stash pop
 ```
 
-A fun trick is that you can even pop the stash when you're not in the same commit where you saved it (pushed it). This means you can move your current work around without having to commit it. #
+A fun trick is that you can even pop the stash when you're not in the same commit where you saved it (pushed it). This means you can move your current work around without having to commit it.
 
-#needs-finishing #stash #stash-pop
+```
+git stash
+git checkout another-branch
+git pop
+```
+
+#stash #stash-pop

@@ -1,0 +1,36 @@
+## Conflict resolution
+
+You know what conflicts are, right? No? I'll bash your head and we'll see.
+
+Whenever you've switched to another branch, or applied changes from stash (or from other places, as we'll see), you'll may get into conflicts. But what are conflicts in the first place?
+
+Conflicts is git trying to apply two different changes to the same place in the same file at the same time.
+
+Follow up this set of commands as an exercise.
+
+```
+# our base file to work with
+git checkout -b baseBranch
+echo "Line 1" >> myFile.txt
+echo "Line 2" >> myFile.txt
+git add myFile.txt
+git commit -m "Base commit"
+
+# first set of changes from base
+git checkout -b branch1
+sed -i '/Line 2/Line 2 Modified 1/' myFile.txt
+git add myFile.txt
+git commit -m "Commit 1"
+
+# second set of changes from base
+git checkout baseBranch
+git checkout -b branch2
+sed -i '/Line 2/Line 2 Modified 2/' myFile.txt
+git add myFile.txt
+git commit -m "Commit 2"
+
+# combine those changes -- uh oh
+git merge branch1
+```
+
+#needs-finishing #conflicts #merging

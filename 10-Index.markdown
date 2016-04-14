@@ -39,6 +39,7 @@
     - [7.6.9- Branches](7.6.9- Branches.markdown)
 - commit-message: [7.6.5- Commits](7.6.5- Commits.markdown)
 - commit: [7.6.9- Branches](7.6.9- Branches.markdown)
+- conflicts: [7.6.12- Conflict resolution](7.6.12- Conflict resolution.markdown)
 - contributing: [8- Contributing](8- Contributing.markdown)
 
 ## D
@@ -75,6 +76,12 @@
 - log: [7.6.9- Branches](7.6.9- Branches.markdown)
 - license: [9- License](9- License.markdown)
 
+## M
+
+- merging
+    - [7.6.11- Merging](7.6.11- Merging.markdown)
+    - [7.6.12- Conflict resolution](7.6.12- Conflict resolution.markdown)
+
 ## N
 
 - needs-proofreading
@@ -101,9 +108,9 @@
 - needs-finishing
     - [7.6- Local operations](7.6- Local operations.markdown)
     - [7.6.9- Branches](7.6.9- Branches.markdown)
-    - [7.6.10- Stash](7.6.10- Stash.markdown)
     - [7.6.11- Merging](7.6.11- Merging.markdown)
-    - [7.6.12- Rebasing](7.6.12- Rebasing.markdown)
+    - [7.6.12- Conflict resolution](7.6.12- Conflict resolution.markdown)
+    - [7.6.13- Rebasing](7.6.13- Rebasing.markdown)
     - [7.7- Remote repositories](7.7- Remote repositories.markdown)
     - [7.7.1- DVCS](7.7.1- DVCS.markdown)
     - [7.7.2- Pushing, fetching and pulling](7.7.2- Pushing, fetching and pulling.markdown)
