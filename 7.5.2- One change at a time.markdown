@@ -10,4 +10,4 @@ Making one change at a time is pretty much what any organized person would do, a
 
 Now, if there was a way to formalize these checkpoints... maybe _committing_ to what you have done so far...
 
-#needs-proofreading #changes #commits
+  

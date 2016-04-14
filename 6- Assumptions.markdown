@@ -8,4 +8,4 @@
 
 (Derived from the last point) **I'm going to be using the bash shell.** Again, there should be nothing crazy here, expect from moving around in repositories and what the prompt tells us. This should be pretty simple to follow and you can expect the same from other OSs, with minor differences that you can adjust changing your configuration.
 
-#assumptions #configuration #code
+  

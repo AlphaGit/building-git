@@ -2,4 +2,3 @@
 
 As you may imagine, most of our work will happen locally. This is, in our own computer. Later on we'll learn how to collaborate with others, but, hey, baby steps.
 
-#needs-finishing

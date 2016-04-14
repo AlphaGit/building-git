@@ -26,4 +26,4 @@ git checkout another-branch
 git pop
 ```
 
-#stash #stash-pop
+ 
